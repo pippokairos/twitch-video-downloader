@@ -10,8 +10,11 @@ Script that downloads the last VOD from a Twitch channel and uploads it to a pri
 
 - Install [Go](https://go.dev)
 - Install [TwitchDownloader](https://github.com/lay295/TwitchDownloader)
+- On Twitch
+  - Register a new application from [the dev portal](https://dev.twitch.tv)
+  - Note down the client id and client secret
 - On Google Cloud
-  - Create a new project
+  - Create a new project from the [Google Cloud Console](https://console.cloud.google.com)
   - Add the private Gmail user address to the test users
   - Add the `Google Drive API` service
   - Create a service account
