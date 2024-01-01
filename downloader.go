@@ -299,7 +299,7 @@ func main() {
 			if err != nil {
 				fmt.Println("Error deleting file:", file.Name, err)
 			} else {
-				fmt.Println("File deleted successfully:", file.Name)
+				fmt.Println("Old file deleted successfully:", file.Name)
 			}
 		}
 	}
